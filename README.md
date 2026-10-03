@@ -1,59 +1,68 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=2500&pause=1500&color=C4B5FD&center=true&vCenter=true&width=720&height=70&lines=shriyashish+mishra;a+PM+who+commits+code" alt="shriyashish mishra, a PM who commits code" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=2200&pause=1200&color=C4B5FD&center=true&vCenter=true&width=760&height=70&lines=sudo+make+me+a+product;shriyashish+mishra;PM.+but+it+compiles." alt="shriyashish mishra" />
 
-<sub>product manager by trade &nbsp;·&nbsp; builder by habit &nbsp;·&nbsp; bengaluru</sub>
+<sub>product manager · builds the thing instead of writing the ticket · bengaluru</sub>
 
-<br/>
+<br/><br/>
 
-[portfolio](https://shriyashish-mishra.github.io) &nbsp;·&nbsp; [linkedin](https://www.linkedin.com/in/shriyashish-mishra/) &nbsp;·&nbsp; [email](mailto:shriyashishm@gmail.com) &nbsp;·&nbsp; [resume](https://drive.google.com/file/d/19mbhHCeIVmJ8NG_GDBZqh_mZI0tt4TjD/view?usp=sharing)
+[portfolio](https://shriyashish-mishra.github.io) &nbsp;/&nbsp; [linkedin](https://www.linkedin.com/in/shriyashish-mishra/) &nbsp;/&nbsp; [email](mailto:shriyashishm@gmail.com) &nbsp;/&nbsp; [resume](https://drive.google.com/file/d/19mbhHCeIVmJ8NG_GDBZqh_mZI0tt4TjD/view?usp=sharing)
 
 </div>
 
 <br/>
 
 ```console
-$ whoami
-shriyashish — PM who got tired of writing the ticket and just built the thing
+shriyashish@github:~$ ./boot.sh
+[ ok ] loading opinions about onboarding funnels
+[ ok ] mounting 6 side projects (4 live, 1 roasts you, 1 is a gym)
+[warn] sleep.service failed to start
+[ ok ] ready. ask me anything ambiguous.
 
-$ cat now.txt
-shipping AI agents, tools for wrangling AI agents, and the occasional resume roast
-
-$ git log --oneline | head -1
-a1b2c3d fix: stop asking engineering "how hard can it be"
+shriyashish@github:~$ cat job_description.txt
+PM by day. leads an AI clinical scribe. says "let's align" with a straight face.
+By night: opens an editor, ships to Vercel, tells nobody in standup.
 ```
 
 <br/>
 
-## `~/projects`
+## `ls ~/projects`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [who-broke-it](https://github.com/shriyashish-mishra/who-broke-it)
-`Go` · `MCP` · `CLI` · open source
+### 🔎 [who-broke-it](https://github.com/shriyashish-mishra/who-broke-it)
+**open source · Go · MCP**
 
-Claude Code, Codex, Cursor and a few humans, all pushing to one repo. Something breaks. `wbi blame` names the agent, the task and the contract that changed. One static binary, no server, no account, no excuses.
+*Every team asks "who broke it?" Now there's a binary for it.*
 
-```text
+Claude Code, Codex, Cursor and a few humans all push to one repo. Something breaks. `wbi blame` names the agent, the task and the contract. No server. No account. No excuses.
+
+```diff
 $ wbi blame src/api/billing/
-🤖 Claude  TASK-007  status endpoint, add paused
-⚠ 3 downstream tasks affected
++ 🧑 Maya     initial commit
+- 🤖 Claude   TASK-007  "added paused status"
+! 3 downstream tasks are now on fire
 ```
+
+`brew install shriyashish-mishra/tap/wbi`
 
 </td>
 <td width="50%" valign="top">
 
-### [cooked-or-hired](https://github.com/shriyashish-mishra/Cooked-or-Hired)
-`Claude skills` · `Vercel`
+### 🔥 [cooked-or-hired](https://github.com/shriyashish-mishra/Cooked-or-Hired)
+**Claude skills · web app**
 
-Paste a resume. An HR screener, a hiring manager and a CEO each tear it apart, then hand you a fix-it list and the interview questions to dread.
+*Your resume, reviewed by three people who didn't ask to be there.*
+
+HR, a Hiring Manager and a CEO judge your resume, then give you scores, a fix-it list and the interview questions to dread.
 
 ```text
-🕵️ HR       "buzzword density: high"
-🧠 Manager  "where are the numbers?"
+🕵️ HR       "so many buzzwords. so few numbers."
+🧠 Manager  "what did YOU do, specifically?"
 👑 CEO      "next."
+verdict: COOKED
 ```
 
 </td>
@@ -61,38 +70,52 @@ Paste a resume. An HR screener, a hiring manager and a CEO each tear it apart, t
 <tr>
 <td width="50%" valign="top">
 
-### [architect-2.0](https://github.com/shriyashish-mishra/architect-2.0) · [live](https://architect-20-ten.vercel.app)
-`Next.js` · `TypeScript` · `Supabase`
+### 🏗️ [architect-2.0](https://github.com/shriyashish-mishra/architect-2.0) · [live](https://architect-20-ten.vercel.app)
+**Next.js · TypeScript · Supabase**
 
-A vibe-coding platform with two front doors: describe an app in plain English, or drop into the terminal and take the wheel. Parts of the agent are simulated, and the README says so in writing. Honesty is a feature.
+*Vibe-code an app, or take the wheel when the vibes fail.*
+
+Describe an app in plain English and watch it get planned, built and previewed. Or drop into a real file tree and terminal. The agent is partly simulated, and the README admits it in writing. Radical honesty. Zero stars for it. Fine.
 
 </td>
 <td width="50%" valign="top">
 
-### [project-hulk](https://github.com/shriyashish-mishra/Project-Hulk) · [live](https://project-hulk.vercel.app)
-`Next.js` · `AI`
+### 💪 [project-hulk](https://github.com/shriyashish-mishra/Project-Hulk) · [live](https://project-hulk.vercel.app)
+**Next.js · AI**
 
-An AI fitness operating system. Workouts, nutrition and recovery in, personalised insights out. Operation Hulk is in progress. Gains pending, commits not.
+*Operation Hulk: in progress.*
+
+An AI fitness OS that turns workouts, nutrition and recovery into insights. Gains pending. Commits not.
+
+```text
+bench press:   ████████░░  80%
+leg day:       ██░░░░░░░░  skipped
+shipping:      ██████████  never skips
+```
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [regimpact-ai](https://github.com/shriyashish-mishra/RegImpactAI) · [live](https://reg-impact-ai.vercel.app)
-`TypeScript` · `RAG`
+### ⚖️ [regimpact-ai](https://github.com/shriyashish-mishra/RegImpactAI) · [live](https://reg-impact-ai.vercel.app)
+**TypeScript · RAG**
 
-Checks Indian fintech products against RBI's digital lending and KYC/AML rules, with citations. Because "trust me, it's compliant" is not a legal strategy.
+*"Trust me, it's compliant" is not a legal strategy.*
+
+Checks Indian fintech products against RBI's digital lending and KYC/AML rules. Every finding comes with a citation, because the regulator will ask.
 
 </td>
 <td width="50%" valign="top">
 
-### [productbattle-ai](https://productbattle.lovable.app/)
-`Lovable` · `LLMs`
+### ⚔️ [productbattle-ai](https://productbattle.lovable.app/)
+**Lovable · LLMs**
 
-Two products walk in. One brutally fair positioning comparison walks out.
+*Two products enter. One comparison leaves.*
 
-<sub>also in the toolbox: [wbi-action-demo](https://github.com/shriyashish-mishra/wbi-action-demo) (a live merge gate, go look at the open PRs) and [homebrew-tap](https://github.com/shriyashish-mishra/homebrew-tap) (`brew install` for my own tools, like an adult)</sub>
+Head-to-head competitive intel that decides who has the better positioning, so you don't have to start a Slack argument.
+
+<sub>side quests: [wbi-action-demo](https://github.com/shriyashish-mishra/wbi-action-demo) (a live merge gate, see the open PRs) · [homebrew-tap](https://github.com/shriyashish-mishra/homebrew-tap) (packaging my own tools like an adult)</sub>
 
 </td>
 </tr>
@@ -100,18 +123,42 @@ Two products walk in. One brutally fair positioning comparison walks out.
 
 <br/>
 
-## `~/patterns`
+## `git diff PRD..shipped`
 
-```text
-agents      building them, wrangling them, cleaning up after them
-healthtech  years of clinical AI left a mark
-receipts    evals, citations, PASS/FAIL checkers. vibes alone don't ship
-ship first  live links, demos, and READMEs that admit what's fake
+```diff
+- Requirement: "simple, quick, no engineering effort"
++ Reality:     nine commits and a quiet apology to the backend
+
+- PM: "can we just add a button?"
++ PM, now building it: "... who put this button here"
+
+- Plan:     one side project
++ Outcome:  six, and a Homebrew tap
+
+- Source of truth: the spec
++ Source of truth: whatever `wbi blame` says
 ```
 
 <br/>
 
-## `~/toolkit`
+## `man me`
+
+```text
+THEMES
+    agents       building them, wrangling them, cleaning up after them
+    healthtech   years of clinical AI left a mark
+    receipts     evals, citations, PASS/FAIL checkers. vibes don't ship
+    honesty      READMEs that tell you what's fake
+
+KNOWN BUGS
+    says "quick question" and means a 3-hour thread
+    cannot walk past an ambiguous problem
+    commits before coffee
+```
+
+<br/>
+
+## `ls ~/toolkit`
 
 <div align="center">
 
@@ -132,7 +179,7 @@ ship first  live links, demos, and READMEs that admit what's fake
 
 <br/>
 
-## `~/fun-facts.md`
+## `cat fun-facts.md`
 
 - I've written PRDs and the code the PRDs describe. The code is shorter.
 - I built a tool to roast resumes, then roasted my own with it. It was fair.
@@ -142,8 +189,14 @@ ship first  live links, demos, and READMEs that admit what's fake
 
 <div align="center">
 
-**got a problem that's ambiguous, AI-shaped, or on fire?** &nbsp;[say hi](mailto:shriyashishm@gmail.com) &nbsp;·&nbsp; [linkedin](https://www.linkedin.com/in/shriyashish-mishra/)
+```console
+shriyashish@github:~$ echo "got an ambiguous, AI-shaped, or on-fire problem?"
+got an ambiguous, AI-shaped, or on-fire problem?
+shriyashish@github:~$ open mailto:shriyashishm@gmail.com
+```
 
-<sub>a PM who can also read your pull requests</sub>
+[**say hi →**](mailto:shriyashishm@gmail.com) &nbsp;·&nbsp; [linkedin](https://www.linkedin.com/in/shriyashish-mishra/)
+
+<sub>exit code 0 · a PM who can also read your pull requests</sub>
 
 </div>
